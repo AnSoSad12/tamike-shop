@@ -1,75 +1,89 @@
-<!DOCTYPE html><html lang="vi"><head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tamike - Shop Roblox</title>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tamike Shop - Roblox Grow a Garden</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f0f0f5;
-      color: #1a1a1a;
-      margin: 0;
-      padding: 0;
+      background: url('https://i.imgur.com/tG0U0XY.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      font-family: Arial, sans-serif;
       text-align: center;
-    }
-    header {
-      background-color: #ffffff;
       padding: 20px;
-      box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
     }
-    header img {
-      width: 120px;
-      height: auto;
-    }
+
     h1 {
-      margin: 10px 0 0;
-      font-size: 2em;
+      font-size: 3em;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px #000;
     }
+
+    .logo {
+      width: 120px;
+      margin: 10px auto;
+    }
+
+    .section {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 15px;
+      border-radius: 12px;
+      margin: 15px 0;
+    }
+
     .rainbow-text {
       font-weight: bold;
-      font-size: 1.1em;
-      background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      margin-top: 10px;
+      font-size: 1.3em;
+      animation: rainbow 2s infinite;
     }
-    .product {
-      background-color: #fff;
-      border-radius: 10px;
-      margin: 20px auto;
-      padding: 15px;
-      max-width: 400px;
-      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+
+    @keyframes rainbow {
+      0% {color: red;}
+      20% {color: orange;}
+      40% {color: yellow;}
+      60% {color: green;}
+      80% {color: blue;}
+      100% {color: violet;}
     }
-    .product img {
-      max-width: 100%;
-      border-radius: 8px;
-    }
-    .price {
-      font-size: 1.2em;
-      margin-top: 10px;
-      font-weight: bold;
-    }
-    footer {
-      background-color: #ffffff;
-      padding: 20px;
-      font-size: 0.9em;
-      color: #333;
-      margin-top: 30px;
-      box-shadow: 0px -2px 5px rgba(0,0,0,0.1);
+
+    img.pet-img {
+      width: 120px;
+      border-radius: 12px;
+      margin: 10px 0;
     }
   </style>
-</head><body>
-  <header>
-    <img src="tamike_logo.png" alt="Tamike Logo">
-    <h1>Shop Roblox - Tamike</h1>
-    <div class="rainbow-text">Hiện tại đang có event 10k/50 hòm Kitsune Chest trên livestream TikTok!</div>
-  </header>  <div class="product">
-    <h2>Corrupt Kitsune</h2>
-    <img src="https://i.imgur.com/vSzrK4p.png" alt="Corrupt Kitsune">
-    <div class="price">Giá: 20.000 VND</div>
-  </div>  <footer>
-    Thanh toán qua chuyển khoản ngân hàng MBBank - 0936800321 - Nguyen An<br>
-    Hoặc gửi thẻ cào qua Zalo: 0936800321<br>
-    Hoặc nhắn tin giao dịch trực tiếp qua TikTok
-  </footer>
-</body></html>
+</head>
+<body>
+  <img src="https://i.imgur.com/4uM09eD.png" class="logo" alt="Tamike Logo" />
+  <h1>Tamike Shop</h1>
+  <p>Chuyên bán vật phẩm - cày thuê - gamepass Roblox Grow a Garden</p>
+
+  <div class="section">
+    <h2>🐺 Pet Cực Hiếm - Corrupt Kitsune</h2>
+    <img src="https://i.imgur.com/UdvO5wr.png" class="pet-img" alt="Corrupt Kitsune" />
+    <p>Giá: <strong>20.000 VND</strong></p>
+  </div>
+
+  <div class="section">
+    <h2>🎯 Gamepass & Cày Thuê</h2>
+    <p>Liên hệ để nhận bảng giá</p>
+  </div>
+
+  <div class="section">
+    <h2>💳 Thanh Toán</h2>
+    <p>Ngân hàng MBBank - STK: 0936800321 - Nguyen An</p>
+    <p>Hoặc nhận thẻ cào</p>
+  </div>
+
+  <div class="section">
+    <h2>📞 Liên Hệ</h2>
+    <p>Zalo: 0936800321</p>
+    <p>Hoặc nhắn tin giao dịch trực tiếp qua TikTok</p>
+  </div>
+
+  <div class="section rainbow-text">
+    🎉 Event: Chỉ 10K/50 hòm Kitsune Chest trên Live Stream TikTok! 🎉
+  </div>
+</body>
+</html>
