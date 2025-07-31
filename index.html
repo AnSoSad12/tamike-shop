@@ -1,122 +1,67 @@
-<!DOCTYPE html>
-<html lang="vi">
+<!DOCTYPE html><html lang="vi">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Tamike Shop - Grow a Garden</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tamike Shop</title>
   <style>
     body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(#0f172a, #1e293b);
-      color: white;
-    }
-    header {
-      background-color: #111827;
-      padding: 20px;
-      text-align: center;
-      border-bottom: 2px solid #22d3ee;
-    }
-    header h1 {
-      font-size: 2.5rem;
-      color: #22d3ee;
-    }
-    nav {
-      background-color: #1f2937;
-      display: flex;
-      justify-content: center;
-      padding: 10px;
-    }
-    nav a {
-      margin: 0 15px;
+      font-family: Arial, sans-serif;
+      background-color: #0f0f0f;
       color: #fff;
-      text-decoration: none;
-      font-weight: bold;
+      text-align: center;
+      padding: 20px;
     }
-    .section {
-      padding: 30px;
+    h1 {
+      font-size: 3em;
+    }
+    img.logo {
+      width: 150px;
+      margin-bottom: 10px;
     }
     .product {
-      background-color: #334155;
+      background: #1a1a1a;
       border-radius: 10px;
       padding: 20px;
       margin: 20px auto;
-      max-width: 600px;
+      width: 90%;
+      max-width: 400px;
     }
-    .product h3 {
-      margin-top: 0;
-      color: #38bdf8;
+    .product img {
+      width: 100%;
+      border-radius: 10px;
     }
-    footer {
-      background-color: #111827;
-      text-align: center;
-      padding: 15px;
-      font-size: 0.9rem;
+    .rainbow-text {
+      font-size: 1.3em;
+      font-weight: bold;
+      background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: rainbow 3s linear infinite;
+    }
+    @keyframes rainbow {
+      0% { background-position: 0% }
+      100% { background-position: 100% }
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Tamike Shop</h1>
-    <p>Bán đồ Grow a Garden – Gamepass – Cày Thuê</p>
-  </header>
-
-  <nav>
-    <a href="#shop">Shop</a>
-    <a href="#services">Cày thuê</a>
-    <a href="#payment">Thanh toán</a>
-    <a href="#contact">Liên hệ</a>
-  </nav>
-
-  <div class="section" id="shop">
-    <h2>🎁 Vật phẩm nổi bật</h2>
-
-    <div class="product">
-      <h3>Gamepass VIP Grow a Garden</h3>
-      <p>Giá: 49K VNĐ</p>
-      <p>Quyền lợi: Tăng tốc độ trồng cây, mở khóa pet xịn, tự động tưới nước.</p>
-    </div>
-
-    <div class="product">
-      <h3>Pet Cực Hiếm - Legendary Cây Sakura</h3>
-      <p>Giá: 89K VNĐ</p>
-      <p>Pet siêu mạnh giúp tăng năng suất x5 lần.</p>
-    </div>
+  <img src="logo.png" alt="Tamike Logo" class="logo">
+  <h1>Shop Roblox - Tamike</h1>
+  <p class="rainbow-text">Hiện tại đang có event 10k/50 hòm Kitsune Chest trên livestream TikTok!</p>
+  <div class="product">
+    <h2>Corrupt Kitsune</h2>
+    <img src="https://i.imgur.com/nWnJzUM.png" alt="Corrupt Kitsune">
+    <p>Giá: 20.000 VND</p>
   </div>
-
-  <div class="section" id="services">
-    <h2>🛠 Dịch vụ cày thuê</h2>
-
-    <div class="product">
-      <h3>Cày cấp độ + Mở khóa khu vực</h3>
-      <p>Giá: Từ 30K – 100K VNĐ</p>
-      <p>Tuỳ yêu cầu, inbox Zalo để báo giá chi tiết.</p>
-    </div>
+  <div class="product">
+    <h2>Gamepass</h2>
+    <p>Liên hệ để đặt hàng</p>
   </div>
-
-  <div class="section" id="payment">
-    <h2>💵 Thanh toán</h2>
-    <div class="product">
-      <p><strong>Chuyển khoản ngân hàng:</strong></p>
-      <ul>
-        <li>Ngân hàng: MBBank</li>
-        <li>Số tài khoản: <strong>0936800321</strong></li>
-        <li>Chủ tài khoản: <strong>Nguyen An</strong></li>
-      </ul>
-      <p><strong>Hoặc nạp bằng thẻ cào:</strong> gửi mã qua Zalo</p>
-    </div>
+  <div class="product">
+    <h2>Dịch vụ cày thuê</h2>
+    <p>Chuyên nghiệp - Uy tín - Nhanh chóng</p>
   </div>
-
-  <div class="section" id="contact">
-    <h2>📱 Liên hệ</h2>
-    <div class="product">
-      <p>Zalo: <strong>0936800321</strong></p>
-      <p>Trả lời nhanh 24/7 – Uy tín – Giao dịch an toàn</p>
-    </div>
-  </div>
-
-  <footer>
-    © 2025 Tamike Shop – Grow a Garden Roblox
-  </footer>
+  <p>Thanh toán: Chuyển khoản MBBank 0936800321 Nguyễn An hoặc gửi card điện thoại</p>
+  <p>Liên hệ qua Zalo 0936800321 hoặc nhắn tin giao dịch trực tiếp qua TikTok</p>
 </body>
-          </html>
+</html>
