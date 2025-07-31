@@ -1,67 +1,75 @@
-<!DOCTYPE html><html lang="vi">
-<head>
+<!DOCTYPE html><html lang="vi"><head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tamike Shop</title>
+  <title>Tamike - Shop Roblox</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #0f0f0f;
-      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f0f5;
+      color: #1a1a1a;
+      margin: 0;
+      padding: 0;
       text-align: center;
+    }
+    header {
+      background-color: #ffffff;
       padding: 20px;
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    }
+    header img {
+      width: 120px;
+      height: auto;
     }
     h1 {
-      font-size: 3em;
-    }
-    img.logo {
-      width: 150px;
-      margin-bottom: 10px;
-    }
-    .product {
-      background: #1a1a1a;
-      border-radius: 10px;
-      padding: 20px;
-      margin: 20px auto;
-      width: 90%;
-      max-width: 400px;
-    }
-    .product img {
-      width: 100%;
-      border-radius: 10px;
+      margin: 10px 0 0;
+      font-size: 2em;
     }
     .rainbow-text {
-      font-size: 1.3em;
       font-weight: bold;
+      font-size: 1.1em;
       background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      animation: rainbow 3s linear infinite;
+      margin-top: 10px;
     }
-    @keyframes rainbow {
-      0% { background-position: 0% }
-      100% { background-position: 100% }
+    .product {
+      background-color: #fff;
+      border-radius: 10px;
+      margin: 20px auto;
+      padding: 15px;
+      max-width: 400px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    }
+    .product img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .price {
+      font-size: 1.2em;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #ffffff;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #333;
+      margin-top: 30px;
+      box-shadow: 0px -2px 5px rgba(0,0,0,0.1);
     }
   </style>
-</head>
-<body>
-  <img src="logo.png" alt="Tamike Logo" class="logo">
-  <h1>Shop Roblox - Tamike</h1>
-  <p class="rainbow-text">Hiện tại đang có event 10k/50 hòm Kitsune Chest trên livestream TikTok!</p>
-  <div class="product">
+</head><body>
+  <header>
+    <img src="tamike_logo.png" alt="Tamike Logo">
+    <h1>Shop Roblox - Tamike</h1>
+    <div class="rainbow-text">Hiện tại đang có event 10k/50 hòm Kitsune Chest trên livestream TikTok!</div>
+  </header>  <div class="product">
     <h2>Corrupt Kitsune</h2>
-    <img src="https://i.imgur.com/nWnJzUM.png" alt="Corrupt Kitsune">
-    <p>Giá: 20.000 VND</p>
-  </div>
-  <div class="product">
-    <h2>Gamepass</h2>
-    <p>Liên hệ để đặt hàng</p>
-  </div>
-  <div class="product">
-    <h2>Dịch vụ cày thuê</h2>
-    <p>Chuyên nghiệp - Uy tín - Nhanh chóng</p>
-  </div>
-  <p>Thanh toán: Chuyển khoản MBBank 0936800321 Nguyễn An hoặc gửi card điện thoại</p>
-  <p>Liên hệ qua Zalo 0936800321 hoặc nhắn tin giao dịch trực tiếp qua TikTok</p>
-</body>
-</html>
+    <img src="https://i.imgur.com/vSzrK4p.png" alt="Corrupt Kitsune">
+    <div class="price">Giá: 20.000 VND</div>
+  </div>  <footer>
+    Thanh toán qua chuyển khoản ngân hàng MBBank - 0936800321 - Nguyen An<br>
+    Hoặc gửi thẻ cào qua Zalo: 0936800321<br>
+    Hoặc nhắn tin giao dịch trực tiếp qua TikTok
+  </footer>
+</body></html>
